@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  background: #111;
+  border: 1px solid white;
+}
+
+#score {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
