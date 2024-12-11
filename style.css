@@ -1,19 +1,33 @@
 body {
   margin: 0;
+  font-family: Arial, sans-serif;
   background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   overflow: hidden;
 }
 
+#menu {
+  text-align: center;
+}
+
+#game {
+  display: none;
+  position: relative;
+}
+
 canvas {
+  border: 2px solid white;
   display: block;
   margin: 0 auto;
-  background: #111;
-  border: 1px solid white;
 }
 
 #score {
-  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
   font-size: 18px;
-  text-align: center;
-  margin-top: 10px;
 }
